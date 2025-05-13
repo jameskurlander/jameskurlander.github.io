@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+@import './fonts.css';
+
+@theme {
+  --font-berkeley-mono-thin: BerkeleyMono-Thin;
+  --font-berkeley-mono-extra-light: BerkeleyMono-ExtraLight;
+  --font-berkeley-mono-light: BerkeleyMono-Light;
+  --font-berkeley-mono-semi-light: BerkeleyMono-SemiLight;
+  --font-berkeley-mono-regular: BerkeleyMono-Regular;
+  --font-berkeley-mono-medium: BerkeleyMono-Medium;
+  --font-berkeley-mono-semi-bold: BerkeleyMono-SemiBold;
+  --font-berkeley-mono-bold: BerkeleyMono-Bold;
+  --font-berkeley-mono-extra-bold: BerkeleyMono-ExtraBold;
+  --font-berkeley-mono-black: BerkeleyMono-Black;
+}

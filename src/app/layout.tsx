@@ -1,3 +1,4 @@
+import '@/styles/globals.css'
 import React from 'react'
 
 export default function RootLayout({
@@ -7,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className='bg-stone-900'>{children}</body>
     </html>
   )
 }

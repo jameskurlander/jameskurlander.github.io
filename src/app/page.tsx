@@ -1,29 +1,18 @@
-import { NavLink } from "@/components/NavLink"
+import { NavMenu } from '@/components/NavMenu'
 
 export default function Page() {
   return (
-    <div>
-      <h1 className='font-berkeley-mono-black text-7xl text-green-400'>007 Welcome to my corner of the internet!</h1>
-      <ul>
-        <li>
-          <NavLink href='/about'>About</NavLink>
-        </li>
-        <li>
-          <NavLink href='/projects'>Projects</NavLink>
-        </li>
-        <li>
-          <NavLink href='/resume'>Contact</NavLink>
-        </li>
-        <li>
-          <NavLink href='/resume'>Github</NavLink>
-        </li>
-        <li>
-          <NavLink href='/resume'>Email</NavLink>
-        </li>
-        <li>
-          <NavLink href='/resume'>LinkedIn</NavLink>
-        </li>
-      </ul>
+    <div className='flex flex-col bg-black gap-13 m-13 p-13 w-[calc(100vw-104px)] h-[calc(100vh-104px)] border-gray-600 border-1 rounded-xl'>
+      <div>
+        <h1 className='text-7xl'>
+          James Kurlander
+          <span className='animate-pulse'>_</span>
+        </h1>
+        <span>Software Engineer</span>
+      </div>
+      <div className='flex flex-1/4'>
+        <NavMenu />
+      </div>
     </div>
   )
 }

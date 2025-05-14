@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: BerkeleyMono-Medium;
-  font-style: italic;
+  font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url('/fonts/BerkeleyMono-Medium.woff2') format('woff2');
@@ -48,7 +48,7 @@
 
 @font-face {
   font-family: BerkeleyMono-SemiBold;
-  font-style: italic;
+  font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url('/fonts/BerkeleyMono-SemiBold.woff2') format('woff2');
@@ -56,7 +56,7 @@
 
 @font-face {
   font-family: BerkeleyMono-Bold;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url('/fonts/BerkeleyMono-Bold.woff2') format('woff2');
@@ -64,7 +64,7 @@
 
 @font-face {
   font-family: BerkeleyMono-ExtraBold;
-  font-style: italic;
+  font-style: normal;
   font-weight: 800;
   font-display: swap;
   src: url('/fonts/BerkeleyMono-ExtraBold.woff2') format('woff2');
@@ -72,7 +72,7 @@
 
 @font-face {
   font-family: BerkeleyMono-Black;
-  font-style: italic;
+  font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: url('/fonts/BerkeleyMono-Black.woff2') format('woff2');

@@ -9,7 +9,6 @@ interface NavLinkProps {
 export const NavLink = ({ href, children }: NavLinkProps) => (
   <Link
     href={href}
-    className='text-lg text-green-400 hover:animate-pulse'
   >
     {children}
   </Link>

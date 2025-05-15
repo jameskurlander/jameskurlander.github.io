@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='flex flex bg-stone-900 font-berkeley-mono-regular text-green-400 text-lg'>{children}</body>
+      <body className='flex bg-beige-600 font-berkeley-mono-regular text-green-400 text-lg'>{children}</body>
     </html>
   )
 }

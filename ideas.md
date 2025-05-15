@@ -1,0 +1,3 @@
+- Add a text color change button to monitor (amber)
+- Add cool typing animation
+- Use Ascii art
